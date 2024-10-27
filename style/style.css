@@ -1,0 +1,109 @@
+body{
+    background-color: #EAEBEC;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 8pt;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: center;
+}
+main{
+    
+    margin: 20px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0.1px;
+    height: 700px;
+    
+}
+
+.E-book_basico{
+    padding:20px 70px;
+    text-align: center;
+}
+.caixa{
+    background-color: #295C73 ;
+    color:white;
+    border-radius: 20px;
+    
+}
+.caixa-box{
+   padding:30px ;
+   text-align: justify;
+}
+.E-book_Material{
+    padding:0px 70px 70px 70px;
+    text-align: justify;
+}
+.E-book_Material_anuncio{
+    background-color:#F3F3F3 ;
+    border: 2px #d0cfcf solid ;
+    display: flex; 
+    padding-right: 20px;
+    align-items: center;
+    border-radius: 20px;
+}
+img{
+ padding: 20px;
+ filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)); 
+ animation: moves 10s infinite;
+ position: relative;
+}
+aside{
+    height: 700px;
+    margin-right: 20px;
+    display: flex;
+    
+   
+    align-items: center;  
+    
+    margin-left: 20px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0.1px;
+    
+}
+.aside_secundario{
+    height: 180px;
+    width: 300px;
+    margin-top: 20px;
+    
+    
+}
+.aside_categorias{
+    margin: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: red;
+}
+li,ul{
+    list-style-type: none;
+    padding: 0;
+}
+.Marcador-one{
+    width: 10px;
+    height: 700px;
+    background-color: rgb(100, 158, 189);
+    position: absolute;
+
+}
+.Marcador-two{
+    background-color: rgb(108, 66, 168);
+    width: 10px;
+    height: 700px;
+    
+    position: absolute;
+    
+}
+@keyframes moves {
+    0%  {top: -10px;}
+    50% {top:5px}
+    75% {bottom: 5px;}
+    100%{top: -10px}
+  }
+/* 
+cor do fundo da div #295C73 
+cor de fundo do #F3F3F3 mais a borda dela #F7F8F8
+
+*/
